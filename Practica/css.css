@@ -1,0 +1,255 @@
+@media only screen and (max-width: 650px) {
+
+    .price{
+        display: none;
+    }
+
+    footer{
+        display: none;
+    }
+
+
+
+}
+
+p{
+    text-align: center;
+    margin-right: 10%;
+}
+
+nav{
+    overflow: hidden;
+    background-color: #1C83C5;
+    width: 100%;
+    height: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    
+     
+}
+
+
+.navbar{
+    position: sticky;
+    top: 0px;
+ 
+}
+
+nav>ul{ 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content:center;
+   
+}
+
+nav>ul li{
+    float: left;
+    color: #ffffff;
+    text-align: center;
+  
+}
+
+.right{
+    float: right;
+}
+
+nav>ul li a{
+    display: block;
+    background: #1C83C5;
+    color: #ffffff;
+    padding: 6px 40px 15px 40px;
+    transition: background-color 0.2s ease;
+    text-decoration: none;
+}
+
+nav>ul li a:hover{
+    color:rgb(252, 197, 43);
+    background-color: #76b5f4;
+    text-decoration: none;
+}
+
+
+body{
+    background:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url(fondo-contacto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin:5px;
+    font-size: 20px;
+}
+
+section{
+    width: 100%;
+    float: left;
+    margin-bottom: 50px;
+}
+
+.productos{
+    width: 100%;
+    height: 50%;
+    float: left;
+    margin: 40px 0px 0px 0px;
+}
+
+.titprod{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    color: #E80D0D;
+    text-shadow: 2px 2px #ffecec;
+}
+
+
+
+.containertext {
+    position: relative;
+    width: 30%;
+    float: left;
+    left: 5%;
+    
+}
+
+.imageprod {
+    
+    display: block;
+    width: 80%;
+    height: 250px;
+    margin: 25px 1% 0px 2%;
+    border:10px solid rgb(252, 197, 43);
+    border-radius: 10%;
+}
+
+.imageprod:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.imageprod2 {
+   
+    display: block;
+    width: 80%;
+    height: 200px;
+    margin: 25px 1% 0px 2%;
+    border:10px solid rgb(252, 197, 43);
+    transition: height 2s steps(3);
+    border-radius: 10%;
+}
+
+.imageprod2:hover {
+    height:250px;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.imageprod3 {
+   
+    display: block;
+    width: 80%;
+    height: 200px;
+    margin: 25px 1% 0px 2%;
+    border:10px solid rgb(252, 197, 43);
+    border-radius: 10%;
+
+}
+
+.imageprod3:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.imageprod4 {
+   
+    display: block;
+    width: 80%;
+    height: 200px;
+    margin: 25px 1% 0px 2%;
+    border:10px solid rgb(252, 197, 43);
+    transition: width 2s, height 4s, transform 2s;
+    transition-delay: 1s;
+    border-radius: 10%;
+}
+
+.imageprod4:hover {
+    transform: rotate(360deg);
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.inside {
+    transition: .5s ease; /* para que la caja de dentro salga minimamente con delay en la transicion*/
+    opacity: 0;/*de primeras no se ve*/
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-70%, -50%); /* centrar en 2d*/
+    -ms-transform: translate(-70%, -50%);
+    text-align: center;
+}
+
+.containertext:hover .imageprod {
+    opacity: 0.3; /* cuando sale la cajetilla de dentro la imagen principal se difumina*/
+}
+
+.containertext:hover .inside {
+    opacity: 1;
+}
+.textprod:hover{
+    cursor: pointer;
+    background-color: #FF9300;
+
+
+}
+
+.productos{
+    width: 100%;
+    height: 50%;
+    float: left;
+    margin: 40px 0px 0px 0px;
+}
+
+.textprod {
+    background-color: #1C83C5;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+.price{ /* precio*/
+    background-color: #FFFB00;
+    font-size: 25px;
+    padding: 16px 32px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.prodocas{
+    width: 100%;
+    height: 50%;
+    float: left;
+    margin: 40px 0px 0px 0px;
+}
+
+.titNuevos{
+    padding-top: 30px;
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+    color: #0a5585;
+    clear: both;
+    text-shadow: 2px 2px #b9dbf2; /*efecto de sombra al texto*/
+}
+
+dialog{
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+}
+
+footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background-color: transparent;
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: center;
+}

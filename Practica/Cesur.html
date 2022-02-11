@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <title>Cesur</title>
+</head>
+<body>
+        <!-- Descargar el Screen Reader para que pueda leer la pagina para aquellos que no puedan ver -->
+
+        <audio id="reproductor" > 
+            <source src="https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_1MG.mp3">
+            El Navegador NO SOPORTA AUDIO.
+        </audio>
+        <button  id="play" onclick="document.getElementById('reproductor').play()" tabindex="4">Play</button>
+        <button  id="pausa" onclick="document.getElementById('reproductor').pause()" tabindex="5">Pausa</button>
+        
+    <div class="navbar">
+        <nav>
+            <ul>
+                
+                <li><a href="login.html" tabindex="1">LOGIN</a></li>
+                <!-- Tabindex para poder ponerte sobre esto de manera facil         -->
+                <li><a href="registro.html" tabindex="2">REGISTRO</a></li>
+                <li><a href="contacto.html" tabindex="3">CONTACTO</a></li>
+                
+            </ul>
+        </nav>
+    </div>
+
+
+
+
+    <section>
+        <div class="productos">
+            <div class="cursos">
+                <div class="titprod"> Los mejores cursos de Cesur </div>
+                <div class="containertext">
+                    <img class="imageprod3" src="dawreducida.jpg">
+                    <div class="inside">
+                        <div class="price">3.000€</div>
+                        <div class="textprod">Solicitar</div>
+                    </div>
+                    <p>DAW</p>
+                </div>
+                <div class="containertext">
+                    <img class="imageprod" src="damreducida.jpg">
+                    <div class="inside">
+                        <div class="price">3.000€</div>
+                        <div class="textprod">Solicitar</div>
+                    </div>
+                    <p>Programacion</p>
+                </div>
+                <div class="containertext">
+                    <img class="imageprod4" src="djreducida.jpg">
+                    <div class="inside">
+                        <div class="price">3.000€</div>
+                        <div class="textprod">Solicitar</div>
+                    </div>
+                    <p>
+                        DJ
+                    </p>
+                </div>
+        </div>
+        
+        <div class="productosNuevos">
+            <div class="nuevos">
+                <div class="titNuevos">Nuevos Cursos</div>
+                <div class="containertext">
+                    <video width="80%" height="250" controls poster="video.jpg" preload="metadata">
+                        <source src="video2.mp4" type="video2/mp4">
+                        El navegador no puede interpretar el video
+                    </video>
+                </div>
+                <div class="containertext">
+                    <img class="imageprod2" src="cocinareducida.jpg">
+                    <p>Cocina</p>
+                </div>
+                </div>
+                <div class="containertext">
+                    <video width="80%" height="250" controls poster="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Big_buck_bunny_poster_big.jpg/424px-Big_buck_bunny_poster_big.jpg" preload="metadata">
+                        <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
+                        El navegador no puede interpretar el video
+                    </video>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <footer>
+        
+            <p>Política de Privacidad en Cesur Formacion </p>
+    
+            <a href="http://www.w3.org/WAI/WCAG1A-Conformance" title="Explicación del Nivel A de Conformidad">
+                <img height="32" width="88" src="http://www.w3.org/WAI/wcag1A" alt="Icono de conformidad con el Nivel A, de las Directrices de Accesibilidad para 
+	            el Contenido Web 1.0 del W3C-WAI"></a>
+    </footer>
+</body>
+</html>
